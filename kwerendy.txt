@@ -1,0 +1,4 @@
+1. SELECT gry.id, gry.nazwa, gry.zdjecie FROM `gry`;
+2. SELECT gry.nazwa, LEFT(gry.opis,100), gry.punkty, gry.cena FROM `gry` WHERE gry.id = 1;
+3. SELECT gry.nazwa, SUM(gry.punkty) FROM `gry` GROUP BY gry.punkty DESC LIMIT 5;
+4. INSERT INTO `gry`( `nazwa`, `opis`, `punkty`, `cena`, `zdjecie`) VALUES ('Zamczysko','Na odludziu stoi opuszczone zamczysko, w którym znajduje się skarb strzeżony przez złowrogie demony i duchy',200,50,'zamczysko.jpg');
