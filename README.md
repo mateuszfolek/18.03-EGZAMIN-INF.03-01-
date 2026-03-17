@@ -1,1 +1,6 @@
 # 18.03-EGZAMIN-INF.03-01-
+
+- Mateusz Folek
+- 3CT
+- 17.03.2026r.
+- INF.03-01-25.06-SG
