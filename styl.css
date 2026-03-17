@@ -1,0 +1,65 @@
+* {
+    font-family: Garamond;
+    color: white;
+}
+header {
+    background-color: Indigo;
+    text-align: center;
+    padding: 2px;
+}
+.left-aside, .right-aside {
+    background-color: Indigo;
+    height: 600px;
+}
+.middle {
+    overflow: scroll;
+    background-color: black;
+    height: 600px;
+}
+footer {
+    background-color: Indigo;
+    height: 150px;
+    clear: both;
+}
+.pkt {
+    background-color: Tomato;
+    border-radius: 50%;
+    padding: 5px;
+}
+li {
+    padding: 5px;
+}
+.gra {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+}
+input {
+    margin: 10px;
+    color: Indigo;
+}
+
+/*   :>   */
+
+
+
+@media (max-width: 799px) {
+    .left-aside, .middle, .right-aside {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .left-aside, .right-aside {
+        width: 20%;
+        float: left;
+    }
+
+    .middle {
+        width: 60%;
+        float: left;
+    }
+}
+
