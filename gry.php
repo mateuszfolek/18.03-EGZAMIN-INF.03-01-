@@ -24,7 +24,7 @@
             $result1 = $connection->query($sqlkw1);
 
             while($row = $result1->fetch_assoc()) {
-                echo "<li>" . $row['nazwa'] . " <span class='punkty'>" . $row['punkty'] . "</span></li>";
+                echo "<li>" . $row['nazwa'] . " <span class='pkt'>" . $row['punkty'] . "</span></li>";
             }
             ?>
             
